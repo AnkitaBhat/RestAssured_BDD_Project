@@ -1,0 +1,37 @@
+version: 2.1
+
+orbs:
+  maven: circleci/maven@0.0.12
+
+workflows:
+  maven_test:
+    jobs:
+      - maven/test # checkout, build, test, and upload test results
+
+#---
+#jobs:
+#  build:
+#    steps:
+#      - checkout
+#      - run: "./mvnw package"
+#  test:
+#    steps:
+#      - checkout
+#      - run: "./mvnw test"
+#  verify:
+#    steps:
+#      - checkout
+#      - run: "./mvnw verify"
+#orbs:
+#  maven: circleci/maven@0.0.12
+#version: 2.1
+#workflows:
+#  build-verify-test:
+#    jobs:
+#      - build
+#      - verify:
+#          requires:
+#            - build
+#      - test:
+#          requires:
+#            - verify

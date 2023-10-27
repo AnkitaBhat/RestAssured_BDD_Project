@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-26T11:42:28 CEST" name="Default suite" finished-at="2023-10-26T11:42:29 CEST" duration-ms="999">
+    <groups>
+    </groups>
+    <test started-at="2023-10-26T11:42:28 CEST" name="Default test" finished-at="2023-10-26T11:42:29 CEST" duration-ms="999">
+      <class name="com.steps.ApiSteps">
+        <test-method signature="WeatherMessageBody()[pri:0, instance:com.steps.ApiSteps@55cb6996]" started-at="2023-10-26T11:42:28 CEST" name="WeatherMessageBody" finished-at="2023-10-26T11:42:29 CEST" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WeatherMessageBody -->
+      </class> <!-- com.steps.ApiSteps -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

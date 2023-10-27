@@ -1,0 +1,5 @@
+target
+/target
+.idea
+/.idea
+/src/test/resources/secret_keys.properties
